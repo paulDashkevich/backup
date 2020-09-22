@@ -1,5 +1,4 @@
 Vagrant.configure("2") do |config|
-
     config.vm.define "client" do |client|
     client.vm.box = "centos/7"
     client.vm.network "private_network", ip: "192.168.0.22"
