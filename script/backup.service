@@ -1,0 +1,7 @@
+[Unit]
+Description=Borg Backup
+
+[Service]
+Type=simple
+Nice=19
+ExecStart=/home/vagrant/backup.sh
